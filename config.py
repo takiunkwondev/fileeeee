@@ -18,7 +18,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "postgres://xjjjplyc:naa60lgAe3bo2pq8UlssqFNPyo0izy-e@cornelius.db.elephantsql.com/xjjjplyc")
+DB_URI = os.environ.get("DATABASE_URL", "")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
