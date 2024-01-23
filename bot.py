@@ -47,7 +47,7 @@ class Bot(Client):
 
         
     
-        self.set_parse_mode("HTML")
+        self.set_parse_mode("html")
         self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by 𝙊𝙥𝙪𝙨 𝙏𝙚𝙘𝙝𝙯\nhttps://t.me/OpusTechz")
         self.username = usr_bot_me.username
         
