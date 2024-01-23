@@ -45,7 +45,7 @@ class Bot(Client):
             self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/OpusTechz for support")
             sys.exit()
 
-        self.set_parse_mode("html")
+        self.set_parse_mode{"mode"}
         self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by 𝙊𝙥𝙪𝙨 𝙏𝙚𝙘𝙝𝙯\nhttps://t.me/OpusTechz")
         self.username = usr_bot_me.username
         
