@@ -45,9 +45,12 @@ class Bot(Client):
             self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/OpusTechz for support")
             sys.exit()
 
+
+
         
-    
-        self.set_parse_mode enums.ParseMode.HTML        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by 𝙊𝙥𝙪𝙨 𝙏𝙚𝙘𝙝𝙯\nhttps://t.me/OpusTechz")
+        await message.reply_photo(photo=kela, caption="kela", parse_mode=enums.ParseMode.HTML)
+           
+        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by 𝙊𝙥𝙪𝙨 𝙏𝙚𝙘𝙝𝙯\nhttps://t.me/OpusTechz")
         self.username = usr_bot_me.username
         
 
