@@ -45,14 +45,9 @@ class Bot(Client):
             self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/OpusTechz for support")
             sys.exit()
 
-
-
-        
-        await message.reply_photo(photo=kela, caption="kela", parse_mode=enums.ParseMode.HTML)
-           
+        self.set_parse_mode("html")
         self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by 𝙊𝙥𝙪𝙨 𝙏𝙚𝙘𝙝𝙯\nhttps://t.me/OpusTechz")
         self.username = usr_bot_me.username
-        
 
     async def stop(self, *args):
         await super().stop()
